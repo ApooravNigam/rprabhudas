@@ -1,0 +1,14 @@
+<taglib version="2.0" xmlns="http://java.sun.com/xml/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+	
+	<tlib-version>1.0</tlib-version>
+	<short-name>Category Tab Library</short-name>
+	<uri>http://localhost:9596/RPrabhudas</uri>
+	
+	<tag>
+		<name>categoriesList</name>
+		<tag-class>com.prabhudas.tags.CategoryListTag</tag-class>
+		<body-content></body-content>
+	</tag>
+	
+</taglib>

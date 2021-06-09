@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" 
+      "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<definition name = "home/admin" template = "/WEB-INF/views/admin/admin_home.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/login" template = "/WEB-INF/views/admin/admin_login.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+	</definition>
+
+	<definition name = "home/admin/profile" template = "/WEB-INF/views/admin/profile.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/accessDenied" template = "/WEB-INF/views/admin/accessDenied.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+	</definition>
+
+	<definition name = "home/admin/user_management" template = "/WEB-INF/views/admin/admin_user_management.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/categories" template = "/WEB-INF/views/admin/categories.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/add_category" template = "/WEB-INF/views/admin/add_category.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/edit_category" template = "/WEB-INF/views/admin/edit_category.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/sub_categories" template = "/WEB-INF/views/admin/sub_categories.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/add_sub_category" template = "/WEB-INF/views/admin/add_sub_category.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/edit_sub_category" template = "/WEB-INF/views/admin/edit_sub_category.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/products" template = "/WEB-INF/views/admin/products.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/add_product" template = "/WEB-INF/views/admin/add_product.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/edit_product" template = "/WEB-INF/views/admin/edit_product.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+	
+	<definition name = "home/admin/colors" template = "/WEB-INF/views/admin/colors.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/add_color" template = "/WEB-INF/views/admin/add_color.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/edit_color" template = "/WEB-INF/views/admin/edit_color.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/designs" template = "/WEB-INF/views/admin/designs.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/fabrics" template = "/WEB-INF/views/admin/fabrics.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/add_fabric" template = "/WEB-INF/views/admin/add_fabric.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/edit_fabric" template = "/WEB-INF/views/admin/edit_fabric.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/photo/products" template = "/WEB-INF/views/admin/photos_of_product.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/photo/add/products" template = "/WEB-INF/views/admin/add_product_photo.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/photo/edit/products" template = "/WEB-INF/views/admin/edit_product_photo.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/photo/fabric" template = "/WEB-INF/views/admin/photos_of_fabric.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/photo/add/fabric" template = "/WEB-INF/views/admin/add_fabric_photo.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/photo/edit/fabric" template = "/WEB-INF/views/admin/edit_fabric_photo.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/measurements" template = "/WEB-INF/views/admin/measurements.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/media" template = "/WEB-INF/views/admin/media.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/orders" template = "/WEB-INF/views/admin/orders.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/role_management" template = "/WEB-INF/views/admin/role_management.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/companies" template = "/WEB-INF/views/admin/companies.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/add_company" template = "/WEB-INF/views/admin/add_company.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/edit_company" template = "/WEB-INF/views/admin/edit_company.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/sub_companies" template = "/WEB-INF/views/admin/sub_companies.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/add_sub_company" template = "/WEB-INF/views/admin/add_sub_company.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+
+	<definition name = "home/admin/edit_sub_company" template = "/WEB-INF/views/admin/edit_sub_company.jsp">
+		<put-attribute name = "admin_head" value = "/WEB-INF/views/templates/admin_head.jsp" />
+		<put-attribute name = "admin_header" value = "/WEB-INF/views/templates/admin_header.jsp" />
+		<put-attribute name = "admin_aside" value = "/WEB-INF/views/templates/admin_aside.jsp" />
+	</definition>
+		
+</tiles-definitions>
